@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,500,700');
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+::-webkit-input-placeholder {
+    color: #C0C0C0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+::-moz-placeholder {
+    color: #C0C0C0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+    color: #C0C0C0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+    color: #C0C0C0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+:focus::-moz-placeholder {
+    color: transparent
+}
+
+:focus:-moz-placeholder {
+    color: transparent
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+
+.user-date,
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal{
+    z-index: 101;
+}
+
+.user-date {
+    z-index: 102;
+}
+
+.modal-content {
+    width: 25%;
+    margin: 15% auto;
+    border: 2px solid #000;
+    border-radius: 7px;
+    padding-bottom: 1%;
+    background-color: #fff;
+}
+
+h2 {
+    width: 50%;
+    padding: 4% 0 4%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7vw;
+}
+
+.cross {
+    float: right;
+    cursor: pointer;
+}
+
+/*----form's style----*/
+
+.profile {
+    max-width: 100%;
+    width: 100%;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.modal form {
+    width: 65%;
+    padding: 1% 0 1%;
+}
+
+.profile {
+    padding-bottom: 8%;
+}
+
+input,
+label,
+p {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+input {
+    display: inline-block !important;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.profile-form .block3 .wrapper:nth-of-type(2) input{
+    margin-left: 7%;
+}
+
+.modal input {
+    display: block !important;
+    width: 100%;
+    padding: 3% 1.5%;
+}
+
+.profile input {
+
+    width: 40%;
+    padding: 0.5%;
+}
+
+.block3 .wrapper:nth-of-type(1) input:nth-of-type(1) {
+    border: none;
+    background-color: #fff;
+    width: 6.7%;
+    font-size: 1.2vw;
+}
+
+.block5 input {
+    width: 25%;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    padding: 2% 0 2%;
+}
+
+.modal label {
+    display: block !important;
+}
+
+.profile label {
+    width: 20%;
+}
+
+p {
+    display: inline-block;
+    font-weight: 500 !important;
+
+}
+
+fieldset {
+    padding: 10px;
+    border-color: #87CEEB;
+    border-radius: 5px;
+}
+
+fieldset legend {
+    color: #87CEEB;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #ff0000;
+    display: block;
+}
+
+.profile .part span {
+    font-size: 1vw;
+    font-weight: 300;
+    margin-left: 21%;
+
+}
+
+.block6 .sub {
+    display: inline-block;
+    width: 100%;
+    padding-top: 3%;
+    margin: 0 auto!important;
+    font-size: 1vw!important;
+    font-weight: 400!important;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+}
+
+.modal form span {
+    padding-top: 3%;
+    font-size: 1vw;
+}
+
+.modal form .btn span {
+    width: 100%;
+    padding-top: 25%;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.modal form .btn span:last-child{
+    padding-top: 5%;
+}
+
+.btn {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.modal .btn {
+    margin-top: 6%;
+}
+
+.profile .btn {
+    margin-top: 2%;
+}
+
+input[type=button],
+input[type=reset] {
+    display: inline-block;
+    width: 48%;
+    border-radius: 3px;
+    padding: 3%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #4682B4;
+    color: #fff;
+    box-shadow: 2px 2px 7px 0px #4682B4;
+}
+
+input[type=button] {
+    float: left;
+}
+
+input[type=reset] {
+    float: right;
+}
+
+
+
+.part,
+.part:not(:last-child) {
+    margin-top: 4%;
+}
+
+img {
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.shooting,
+.knitting {
+    margin-top: 1%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ---user data--- */
+
+.user-date-content {
+    width: 45%;
+    margin: 2% auto;
+    border: 2px solid #000;
+    border-radius: 7px;
+    padding-bottom: 1%;
+    background-color: #fff;
+}
+
+.user-date-content .wrapper {
+    width: 90%;
+    margin: 1% auto 0;
+    padding: 0.5%;
+}
+
+.user-date-content .wrapper .indicator,
+.user-date-content .wrapper .info {
+    display: inline-block;
+    border: 1px solid #000;
+    margin-left: 1%;
+    padding: 0.5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+.user-date-content .wrapper .indicator {
+    width: 25%;
+}
+
+.user-date-content .wrapper .info {
+    width: 65%;
+}
